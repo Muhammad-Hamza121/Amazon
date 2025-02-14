@@ -18,6 +18,9 @@
     height: 50px;
     width: 100px;
 }
+.nav-logo:hover{
+    cursor: pointer;
+}
 
 .logo {
     background-image: url(amazon_logo.png);
@@ -58,6 +61,9 @@
     width: 620px;
     height: 40px;
     border-radius: 4px;
+}
+.nav-search:hover{
+    cursor: pointer;
 }
 
 .search-select {
@@ -269,4 +275,12 @@ ul a {
 }
 .copyright {
     padding-top: 5px;
+}
+span,
+.add-1,.add-2, 
+.search-input, 
+.search-select,
+.nav-second,
+.nav-cart:hover{
+    cursor: pointer;
 }
